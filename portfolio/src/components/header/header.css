@@ -42,7 +42,9 @@
     background: #055052;
 }
 
-.navigation>p {
+.navigation>button {
     padding-left: 10px;
     text-align: center;
+    background: transparent;
+    border: 0;
 }

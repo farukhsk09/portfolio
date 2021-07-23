@@ -1,4 +1,6 @@
 import './header.css';
+import ArrowUpwardOutlinedIcon from '@material-ui/icons/ArrowUpwardOutlined';
+import ArrowDownwardOutlinedIcon from '@material-ui/icons/ArrowDownwardOutlined';
 
 function Header() {
     return (
@@ -11,8 +13,8 @@ function Header() {
                 <p>My Portfolio</p>
             </div>
             <div className="navigation">
-                <p>UP</p>
-                <p>DOWN</p>
+                <button><ArrowUpwardOutlinedIcon></ArrowUpwardOutlinedIcon></button>
+                <button><ArrowDownwardOutlinedIcon></ArrowDownwardOutlinedIcon></button>
             </div>
         </div>
     );
