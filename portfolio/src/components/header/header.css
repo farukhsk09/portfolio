@@ -6,6 +6,8 @@
     min-height: 9vh;
     background-color: #53B8BB;
     display: flex;
+    border-bottom: solid 1px #53B8BB;
+    margin-bottom: 10vh;
 }
 
 .logo {
@@ -47,4 +49,5 @@
     text-align: center;
     background: transparent;
     border: 0;
+    width: 50%;
 }
